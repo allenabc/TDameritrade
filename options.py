@@ -1,7 +1,7 @@
 import requests
-from requests.auth import HTTPBasicAuth
 from config import td_consumer_key
 import pprint
+
 url=r"https://api.tdameritrade.com/v1/marketdata/chains"
 
 symbol = 'AMD'
